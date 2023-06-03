@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "UseBIE - Amend JaCoCo Reports",
+    "version": "1.0.0",
+    "description": "Amend JaCoCo reports to remove super methods.",
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["background.js"]
+    }],
+    "permissions": [
+        "tabs"
+    ]
+}
